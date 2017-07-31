@@ -1,0 +1,11 @@
+Taches effectuées
+	git init	--> installe les fichiers necessaires
+	touch README 	--> crée un fichier README
+	modification du fichier texte
+	git add README	--> signale que le fichier est à commite
+	git add index.html
+	git add style/style.css
+	git add js/javascript.js
+	git commit -m   --> 1er commit
+
+	git remote add origin https://github.com/username/Hello-World.git
