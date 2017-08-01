@@ -8,4 +8,14 @@ Taches effectuées
 	git add js/javascript.js
 	git commit -m   --> 1er commit
 
-	git remote add origin https://github.com/username/Hello-World.git
+	git remote add origin https://github.com/natlef/SiteCirque.git
+
+	git push --> erreur fatal
+
+	git config push.default upstream
+	git config push.default simple
+	git config push.default current
+	
+	git push --force
+	
+	
