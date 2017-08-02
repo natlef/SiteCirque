@@ -285,8 +285,24 @@ footer h1
    width: 94.5px;
   height: 53.5px; 
 }
-
-@media screen and (max-width: 1024px)
+.container
 {
-
+    background-color: black;
+    display: flex;
+    margin: auto;
+}
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
 }
